@@ -5,7 +5,7 @@
  <title>patient login</title>
  <style type="text/css">
  body{
-  background-image: url('images.jpg');
+  background-image: url('images/images.jpg');
   background-size: cover;
  }
  .aa{
@@ -47,24 +47,6 @@ color:white;
 <body align="center">
  <div class="aa">
  <h2>Patient Login</h2>
-<script src="account.js">
-function validate() {
-if(documentgetElementById("g").value == "")
-{
-alert("please enter the name");
-return false;
-}
-else if(documentgetElementById("h").value == "")
-{
-alert("please enter the password");
-return false;
-}
-else
-{
-window.open("file:///C:/Users/AAYUSH/Desktop/cse%20326/account.html","my window","_blank");
-}
-}
-</script>
   <form >
    <input id="g" class="b " type="text" placeholder="Enter Your Username" required><br><br>
    <input  id="h" class="b" type="password" placeholder="Enter Your password" required><br><br>
@@ -72,6 +54,6 @@ window.open("file:///C:/Users/AAYUSH/Desktop/cse%20326/account.html","my window"
    </form>
  </div>
 <br><br>
-<button class="d"  onclick=>BACK</button>
+<button class="d"  onclick="window.location.href = 'project.html';">BACK</button>
 </body>
 </html>
